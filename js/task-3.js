@@ -1,5 +1,5 @@
 class StringBuilder {
-    #value; // Приватна властивість
+    #value;
 
     constructor(initialValue) {
         this.#value = initialValue;
@@ -22,7 +22,6 @@ class StringBuilder {
     }
 }
 
-// Код для перевірки
 const builder = new StringBuilder(".");
 console.log(builder.getValue()); // "."
 builder.padStart("^");

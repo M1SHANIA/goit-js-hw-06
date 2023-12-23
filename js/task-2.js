@@ -1,5 +1,5 @@
 class Storage {
-    #items; // Приватна властивість
+    #items;
 
     constructor(items) {
         this.#items = items;
@@ -21,7 +21,6 @@ class Storage {
     }
 }
 
-// Код для перевірки
 const storage = new Storage(["Nanitoids", "Prolonger", "Antigravitator"]);
 console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator"]
 storage.addItem("Droid");
